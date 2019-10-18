@@ -1,3 +1,9 @@
+mPDF 8.1.x
+===========================
+
+* Add proxy support to curl
+* Fixed date and time format in the informations dictionary (#1083, @peterdevpl)
+
 mPDF 8.0.x
 ===========================
 
@@ -5,6 +11,8 @@ mPDF 8.0.x
 * Allows setting `none` as zoom mode in `SetDisplayMode` method, so that OpenAction is not written (#602)
 * Allowed image stream whitelist to be customised (#1005, thanks @jakejackson)
 * Fixed parsing of top-left-bottom-right CSS rules with !important (#1009)
+* Fixed skipping ordered list numbering with page-break-inside: avoid (#339)
+* Compound classes selector support, like `.one.two` or `div.message.special` (#538, @peterdevpl)
 
 mPDF 8.0.0
 ===========================
